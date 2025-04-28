@@ -212,7 +212,7 @@ def resolve_currency_code(user_input: str):
         return country_to_currency.get(canonical)
     return None
 
-api_key = "d1d01af0db77065d19d8543a"
+api_key = "ENTER YOUR API KEY"
 link = f"https://v6.exchangerate-api.com/v6/{api_key}/latest/"
 
 def get_exchange_rate(base_currency_code, target_currency_code):
